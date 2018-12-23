@@ -1,0 +1,32 @@
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.text-gallery p {
+    padding: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+}
+
+
+.gallery .card {
+    display: inline-block;
+    width: 15rem;
+    height: auto;
+    margin: 10px 10px 20px 70px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/* cafe.css */
+
+
+    

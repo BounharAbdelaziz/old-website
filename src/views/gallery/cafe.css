@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+/* start media queries*/
+
+        /* mobile view*/
+    @media (max-width : 576px ){
+        .text-filtre{
+            width: 100%;
+            text-align: center;
+        }
+        
+        .row{
+            width: 100%;
+        }
+
+        .row .card{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+            transition: transform .3s;
+            width: 100%;
+            height: 380px;
+            display: inline-block;           
+        }
+            .row  .card:hover{
+                transform: scale(1.04);
+            }
+            .row   .card img {
+                max-height: 180px;
+                width: 100%;
+            }
+            .row    .card-title{
+                font-size: 12px;
+                font-weight: bold;
+            }
+            .row    .card-text{
+                min-height: 80px;
+                max-height: 80px;
+                width: 100%;
+            }
+            .row .card .card-body .card-title .fas {
+                position: absolute;
+                top : 167px;
+                right: 9px;
+                color: #f00;
+                border-radius: 50%;
+                background-color: #fff;
+                padding: 6px;
+            }
+    }
+    /* end mobile view*/
+        
+        /* xl view*/
+        @media (min-width : 1200px ){
+            .text-filtre{
+                width: 100%;
+                text-align: center;
+            }
+            .row .card{
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+                transition: transform .3s;
+                width: 280px;
+                height: 380px;           
+            }
+                .row  .card:hover{
+                    transform: scale(1.04);
+                }
+                .row   .card img {
+                    max-height: 180px;
+                    min-height: 180px;
+                    width: 100%;
+                }
+                .row    .card-title{
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+                .row    .card-text{
+                    min-height: 80px;
+                    max-height: 80px;
+                    width: 100%;
+                }
+                .row .card .card-body .card-title .fas {
+                    position: absolute;
+                    top : 169px;
+                    right: 9px;
+                    color: #f00;
+                    border-radius: 50%;
+                    background-color: #fff;
+                    padding: 6px;
+                }
+        }
+        /* end xl view*/
+
+
+/* end media queries */
+
+
+
+
+
+
+
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+.text-gallery p {
+    padding: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+}
+
+
+/* filter section */
+    .text-filtre{
+        font-size: 25px;
+        font-weight: bold;
+        font-family : 'Flower';
+        margin-top: 57px;
+    }
+
+        .text-filtre i {
+            margin: 25px;
+        }
+
+    .filtre-ville{
+        margin: 20px;
+    }
+
+    .filtre-quartier{
+        margin: 20px;
+    }
+
+    .filtre-note{
+        margin: 20px;
+    }
+
+    .card{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: transform .3s;
+        width: 280px;
+        height: 380px;
+        margin : 20px; 
+        display : inline;
+    }
+        .card:hover{
+            transform: scale(1.04);
+        }
+        .card img {
+            max-height: 160px;
+            min-height: 160px;
+            width: 280px;
+        }
+        .card-title{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .card-text{
+            min-height: 80px;
+            max-height: 80px;
+            width: 250px;
+        }
+        
+            
+        .row .card .fas {
+            position: absolute;
+            top : 147px;
+            right: 9px;
+            color: #f00;
+            border-radius: 50%;
+            background-color: #fff;
+            padding: 6px;
+        }
+        

@@ -1,0 +1,28 @@
+@media (max-width : 990px ){
+    .text-filtre{
+        width: 100%;
+        text-align: center;
+    }
+    .row .card{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+        transition: transform .3s;
+        width: 280px;
+        height: 380px;           
+    }
+        .row  .card:hover{
+            transform: scale(1.04);
+        }
+        .row   .card img {
+            max-height: 180px;
+            width: 100%;
+        }
+        .row    .card-title{
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .row    .card-text{
+            min-height: 80px;
+            max-height: 80px;
+            width: 100%;
+        }
+}
